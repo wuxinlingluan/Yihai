@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_custom_search" />
+    <include layout="@layout/view_divider_line" />
+    <TextView
+        android:id="@+id/bondedReadersTitle"
+        style="@style/style_recycle_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="left"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="8dp"
+        android:text="蓝牙列表" />
+    <ListView
+        android:id="@+id/bondedReadersList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="95"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.25dp" />
+    <TextView android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="95"
+        style="@style/style_medium_font"
+        android:padding="@dimen/default_padding"
+        android:text="@string/none_paired"
+        android:visibility="gone"/>
+
+</LinearLayout>

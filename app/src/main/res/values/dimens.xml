@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fragment_horizontal_margin">6dp</dimen>
+    <dimen name="fragment_vertical_margin">6dp</dimen>
+
+    <!-- Default image size. -->
+    <dimen name="image_size_small1">8dp</dimen>
+    <dimen name="image_size_small2">15dp</dimen>
+    <dimen name="image_size_small3">20dp</dimen>
+    <dimen name="image_size_small4">25dp</dimen>
+    <dimen name="image_size_normal1">30dp</dimen>
+    <dimen name="image_size_normal2">50dp</dimen>
+    <dimen name="image_size_big1">100dp</dimen>
+
+    <!-- Default view margin size. -->
+    <dimen name="view_margin_small1">1dp</dimen>
+    <dimen name="view_margin_small2">2dp</dimen>
+    <dimen name="view_margin_small3">4dp</dimen>
+    <dimen name="view_margin_normal1">6dp</dimen>
+    <dimen name="view_margin_normal2">8dp</dimen>
+    <dimen name="view_margin_normal3">10dp</dimen>
+    <dimen name="view_margin_big1">12dp</dimen>
+    <dimen name="view_margin_big2">15dp</dimen>
+    <dimen name="view_margin_big3">20dp</dimen>
+    <dimen name="view_margin_super">38dp</dimen>
+
+    <!-- Default view margin size. -->
+    <dimen name="view_height_small1">10dp</dimen>
+    <dimen name="view_height_small2">20dp</dimen>
+    <dimen name="view_height_normal1">40dp</dimen>
+    <dimen name="view_height_normal2">60dp</dimen>
+    <dimen name="view_height_big1">100dp</dimen>
+    <dimen name="view_height_big2">150dp</dimen>
+    <dimen name="view_height_big3">200dp</dimen>
+
+    <!-- Default text size. -->
+    <dimen name="text_size_small1">8sp</dimen>
+    <dimen name="text_size_small2">10sp</dimen>
+    <dimen name="text_size_small3">12sp</dimen>
+    <dimen name="text_size_normal1">15sp</dimen>
+    <dimen name="text_size_big1">17sp</dimen>
+    <dimen name="text_size_big2">20sp</dimen>
+    <dimen name="text_size_big3">24sp</dimen>
+
+    <!-- default view -->
+    <dimen name="shape_corner_small">4dp</dimen>
+    <dimen name="shape_corner_normal">8dp</dimen>
+    <dimen name="shape_stroke_small">1dp</dimen>
+
+    <dimen name="size_divider_line">1dp</dimen>
+    <dimen name="size_divider_space">20dp</dimen>
+
+    <!-- custom -->
+    <dimen name="tab_width">144dp</dimen>
+    <dimen name="tab_height">26dp</dimen>
+    <dimen name="tab_radius">13dp</dimen>
+    <dimen name="bar_plan">33dp</dimen>
+    <dimen name="toolbar_min_height">43dp</dimen>
+    <dimen name="bar_action_height">46dp</dimen>
+    <dimen name="bt_login_radius">22dp</dimen>
+    <dimen name="default_padding">10dp</dimen>
+    <dimen name="reader_list_item_padding">5dp</dimen>
+
+</resources>

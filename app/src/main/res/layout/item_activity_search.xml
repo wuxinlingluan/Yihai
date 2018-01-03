@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/windowBgColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteBgColor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/style_recycle_item_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_size_small3"
+                android:layout_height="@dimen/image_size_small3"
+                android:src="@drawable/ic_goods_shelves" />
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tip_goods_shelf" />
+
+            <TextView
+                android:id="@+id/tv_hj"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_goods_shelf" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_recycle_item_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_size_small3"
+                android:layout_height="@dimen/image_size_small3"
+                android:src="@drawable/ic_goods_layer" />
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tip_goods_layer" />
+
+            <TextView
+                android:id="@+id/tv_hc"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_goods_layer" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_recycle_item_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_size_small3"
+                android:layout_height="@dimen/image_size_small3"
+                android:src="@drawable/ic_goods_location" />
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tip_goods_location" />
+
+            <TextView
+                android:id="@+id/tv_hw"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_goods_location" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_recycle_item_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_size_small3"
+                android:layout_height="@dimen/image_size_small3"
+                android:src="@drawable/ic_material" />
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tip_material" />
+
+            <TextView
+                android:id="@+id/tv_material"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_material" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_recycle_item_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_size_small3"
+                android:layout_height="@dimen/image_size_small3"
+                android:src="@drawable/ic_goods_right" />
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tip_goods_right" />
+
+            <TextView
+                android:id="@+id/tv_goods_right"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_goods_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_recycle_item_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/image_size_small3"
+                android:layout_height="@dimen/image_size_small3"
+                android:src="@drawable/ic_goods_alias" />
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tip_goods_alias" />
+
+            <TextView
+                android:id="@+id/tv_identitymark"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tip_goods_alias" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <include layout="@layout/view_divider_item" />
+</LinearLayout>

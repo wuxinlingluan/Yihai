@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">益海手持机</string>
+
+    <string name="title_main">"主页"</string>
+    <string name="title_make_plan">"制定计划"</string>
+    <string name="title_select_plan">"选择计划"</string>
+    <string name="title_goods_in">"货物上架"</string>
+    <string name="title_scan_confirm">"扫描确认"</string>
+
+    <string name="dialog_exit_msg">"是否退出App？"</string>
+    <string name="dialog_start_scan">"是否开始盘库？"</string>
+    <string name="dialog_end_scan">"是否提交盘库结果？"</string>
+
+    <string name="action_make">"制定"</string>
+    <string name="action_ok">"确定"</string>
+    <string name="action_cancel">"取消"</string>
+    <string name="action_scan_start">"开始扫描"</string>
+    <string name="action_scan_again">"重新扫描"</string>
+    <string name="action_deal_hand">"手动处理"</string>
+    <string name="action_in">"入库"</string>
+    <string name="action_out">"出库"</string>
+    <string name="action_check">"盘库"</string>
+    <string name="action_clear">"清空"</string>
+    <string name="action_select_plan">"选择计划"</string>
+    <string name="action_select_material">"选择物料"</string>
+    <string name="action_login">"登录"</string>
+    <string name="action_forget">"忘记密码"</string>
+    <string name="action_register">"用户注册"</string>
+
+    <string name="tip_a001">"A01"</string>
+    <string name="tip_a002">"A02"</string>
+    <string name="tip_reason_title">"原因标题"</string>
+    <string name="tip_rfid_list">"RFID列表"</string>
+    <string name="tip_rfid">"读取RFID"</string>
+    <string name="tip_qrcode">"二维码"</string>
+    <string name="tip_rfid_code">"RFID"</string>
+    <string name="tip_goods_shelf">"货架"</string>
+    <string name="tip_goods_layer">"货层"</string>
+    <string name="tip_goods_location">"货位"</string>
+    <string name="tip_material">"物料信息"</string>
+    <string name="tip_material_select">"选择物料"</string>
+    <string name="tip_goods_right">"货权信息"</string>
+    <string name="tip_goods_alias">"货件别名"</string>
+    <string name="tip_plan_name">"计划名称"</string>
+    <string name="hint_material">"请选择物料"</string>
+    <string name="hint_goods_shelf">"请选择货架"</string>
+    <string name="hint_goods_floor">"请选择货层"</string>
+    <string name="hint_goods_location">"请选择货位"</string>
+    <string name="hint_goods_right">"请选择货权"</string>
+    <string name="hint_goods_alias">"请输入货件别名"</string>
+    <string name="hint_plan_name">"请输入计划名称"</string>
+    <string name="hint_plan_select">"请先选择计划"</string>
+    <string name="hint_plan_null">"暂无计划"</string>
+    <string name="hint_material_null">"暂无物料"</string>
+    <string name="hint_location_null">"库存为空"</string>
+    <string name="hint_reason">"请简要描述原因"</string>
+    <string name="hint_reason_error">"请详细描述未扫描成功的原因"</string>
+    <string name="hint_net_error">"请求服务器失败，请检查网络"</string>
+    <string name="hint_scan_null">"请扫描Rfid"</string>
+    <string name="hint_scan_not_equal">"扫描Rfid与计划中的不一致"</string>
+    <string name="hint_submit_success">"提交成功"</string>
+    <string name="hint_submit_error">"提交失败"</string>
+    <string name="hint_waiting">"请稍后"</string>
+    <string name="hint_select">"请选择"</string>
+    <string name="hint_select_null">"请选择至少一个条件"</string>
+    <string name="action_select_company">"选择货权"</string>
+    <string name="none_paired">未发现蓝牙列表</string>
+    <string name="title_serial">Serial</string>
+    <string name="colon">:</string>
+    <string name="title_model">Model</string>
+    <string name="batch_mode_running_title">Running in batch mode</string>
+    <string name="title_list">蓝牙列表</string>
+    <string name="hint_version">测试版V1.0</string>
+    <string name="hint_surport">技术支持：山东金钟科技集团股份有限公司</string>
+
+</resources>

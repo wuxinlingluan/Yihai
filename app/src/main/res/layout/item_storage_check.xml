@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteBgColor"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_rfid_code" />
+
+            <TextView
+                android:id="@+id/tv_rfid"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_rfid_code" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_shelf" />
+
+            <TextView
+                android:id="@+id/tv_goods_shelf"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_shelf" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_layer" />
+
+            <TextView
+                android:id="@+id/tv_goods_floor"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_layer" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_location" />
+
+            <TextView
+                android:id="@+id/tv_goods_location"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_location" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_material" />
+
+            <TextView
+                android:id="@+id/tv_material"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_material" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_right" />
+
+            <TextView
+                android:id="@+id/tv_goods_right"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_recycle_text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/view_margin_big2"
+                android:paddingLeft="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_alias" />
+
+            <TextView
+                android:id="@+id/tv_goods_alias"
+                style="@style/style_recycle_text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/view_margin_big2"
+                android:paddingTop="@dimen/view_margin_big2"
+                android:text="@string/tip_goods_alias" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/view_margin_big3"
+        android:layout_marginTop="@dimen/view_margin_big3"
+        android:background="@color/dividerColor" />
+
+    <ImageView
+        android:id="@+id/iv_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/view_margin_big2"
+        android:src="@drawable/ic_scan_error" />
+</LinearLayout>

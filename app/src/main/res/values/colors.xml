@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005953</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="toolBarColor">#ffffff</color>
+    <color name="toolBarTextColor">#005953</color>
+    <color name="toolBarFocusColor">#ffffff</color>
+
+    <color name="windowBgColor">#F3F3F4</color>
+    <color name="whiteBgColor">#FFFFFF</color>
+
+    <color name="dividerColor">#EEEEEE</color>
+    <color name="dividerColorDark">#CCCCCC</color>
+
+    <color name="textBlackColor">#333333</color>
+    <color name="textBlackColor2">#666666</color>
+    <color name="textHintColor">#BBBBBB</color>
+    <color name="textHintColorLight">#CCCCCC</color>
+    <color name="inputHintColor">#878787</color>
+
+    <color name="btnNormalColor">#FFFFFF</color>
+    <color name="btnPressColor">#99FFFFFF</color>
+
+    <color name="color_null">#00000000</color>
+    <color name="color_bg_gray">#F3F3F4</color>
+</resources>

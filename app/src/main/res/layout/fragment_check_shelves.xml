@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <include layout="@layout/spinner_storage_in_plan" />
+
+
+    <LinearLayout
+        android:background="@color/whiteBgColor"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+        <TextView
+            android:id="@+id/tv_need_scan"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:text="预盘数量:"
+            android:textStyle="bold"
+            android:drawablePadding="5dp"
+            android:textColor="#ff7777"
+            android:drawableLeft="@drawable/icon_need_scan"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:textColor="#00998f"
+            android:textStyle="bold"
+            android:drawablePadding="5dp"
+            android:layout_marginLeft="15dp"
+            android:drawableLeft="@drawable/icon_already_scan"
+            android:id="@+id/tv_already_scan"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:text="已盘数量:"
+            />
+    </LinearLayout>
+    <include layout="@layout/view_divider_item"></include>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/whiteBgColor" />
+        <include layout="@layout/view_divider_space"></include>
+
+
+</LinearLayout>
